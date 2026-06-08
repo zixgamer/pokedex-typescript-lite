@@ -38,10 +38,6 @@ async function main(): Promise<void> {
   console.log("--- Catalogo apos remocao ---");
   controller.exibirCatalogo();
 
-  //Tentando remover ID que nao existe
-  console.log("--- Tentando remover ID inexistente (999) ---\n");
-  controller.removerDoCatalogo(999);
-
   //Estatisticas finais
   controller.exibirEstatisticas();
 
